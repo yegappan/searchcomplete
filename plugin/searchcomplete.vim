@@ -5,7 +5,7 @@ if !exists('*matchbufline')
   finish
 endif
 
-import '../autoload/searchcomplete.vim'
+import autoload '../autoload/searchcomplete.vim'
 
 # Map <Tab> and <S-Tab> to complete the match from the words in the current
 # buffer
